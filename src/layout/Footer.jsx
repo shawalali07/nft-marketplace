@@ -5,7 +5,7 @@ import { LayoutContainer } from './LayoutContainer';
 export function Footer() {
   return (
     <LayoutContainer>
-      <div className='py-8 px-7 border border-secondary-border rounded-xl border-solid p-2'>
+      <div className='hidden md:block py-8 px-7 border border-secondary-border rounded-xl border-solid p-2'>
         <div className='flex justify-between'>
           <div className=''>
             <img src={logo} alt='logo' />
